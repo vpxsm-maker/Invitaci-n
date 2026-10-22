@@ -338,6 +338,11 @@ body.bloqueado{overflow:hidden;height:100svh}
   font-family:var(--f-titulo);font-size:2.3rem;letter-spacing:.14em;
   color:var(--eucalipto);margin:10px 0 8px;font-weight:300;
 }
+/* Paleta sugerida para los invitados (puntos más grandes) */
+.sugerencia{margin-top:30px}
+.paleta-grande{gap:14px;margin:18px 0 0}
+.paleta-grande span{width:34px;height:34px;box-shadow:0 0 0 1px rgba(58,46,59,.08)}
+
 /* ═══════════════════════════════════════════════════════════════════
    9. LLUVIA DE SOBRES
    ═══════════════════════════════════════════════════════════════════ */
@@ -521,9 +526,13 @@ body.bloqueado{overflow:hidden;height:100svh}
     </svg>
   </div>
 
-  <p class="dress-grande">Formal</p>
-  <p>Ellas, vestido largo. Ellos, traje oscuro.</p>
-  <p style="margin-top:12px;font-size:.85rem;color:var(--tinta-suave)">
+  <p class="dress-grande">Formal casual</p>
+
+  <p class="eyebrow sugerencia">Sugerencia de paleta de colores</p>
+  <div class="paleta paleta-grande" aria-label="Morado, uva, lila, verde eucalipto y beige arena">
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+  <p style="margin-top:24px;font-size:.85rem;color:var(--tinta-suave)">
     Te pedimos reservar el color blanco para la novia.
   </p>
 
